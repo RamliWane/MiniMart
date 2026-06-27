@@ -1,10 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import "../styles/global.css";
+import HomeBannerSliders from '../components/home/HomeBannerSliders.jsx';
+import HomeCategories from '../components/home/HomeCategories.jsx';
 ---
 
 <Layout>
-    <div>
-        <h1 class="text-xl font-bold underline">Home</h1>
-    </div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+    <HomeBannerSliders client:load />
+    <HomeCategories client:load />
+  </div>
 </Layout>
