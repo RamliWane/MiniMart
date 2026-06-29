@@ -38,9 +38,7 @@ export default function Navbar() {
 
           {/* LOGO */}
           <a href="/" className="shrink-0 flex items-center gap-1.5">
-            <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">M</span>
-            </div>
+
             <span className="text-blue-600 font-bold text-xl tracking-tight">minimart</span>
           </a>
 
