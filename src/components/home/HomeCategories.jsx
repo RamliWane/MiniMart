@@ -24,7 +24,7 @@ export default function HomeCategories() {
   ];
 
   return (
-    <section className="py-10 rounded-3xl bg-gray-50">
+    <section className="py-5 mt-3 rounded-3xl bg-gray-50">
       <div className="max-w-7xl mx-auto px-4">
         {/* HEADER */}
         <div className="flex justify-between items-center mb-6">
@@ -39,7 +39,7 @@ export default function HomeCategories() {
           {categories.map((cat, index) => (
             <div
               key={index}
-              className="border flex flex-col items-center justify-center p-4 hover:bg-gray-50 cursor-pointer transition"
+              className="border-gray-200 border flex flex-col items-center justify-center p-4 hover:bg-gray-50 hover:shadow-xl cursor-pointer transition"
             >
               <img
                 src={cat.image}
