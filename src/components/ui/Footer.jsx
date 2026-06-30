@@ -1,13 +1,13 @@
 export default function Footer() {
   return (
-    <footer className="bg-white border-t border-gray-100 mt-10">
+    <footer className="bg-blue-600 border-t border-gray-100 mt-10 w-full">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
           
           {/* BRAND */}
           <div className="col-span-2 md:col-span-1">
-            <h2 className="text-xl font-bold text-emerald-600 mb-3">minimart</h2>
-            <p className="text-[13px] text-gray-500 leading-relaxed mb-4">
+            <h2 className="text-xl font-bold text-white mb-3">minimart</h2>
+            <p className="text-[13px] text-white leading-relaxed mb-4">
               Belanja mudah, cepat, dan terpercaya. Temukan jutaan produk dengan harga terbaik.
             </p>
             <div className="flex gap-3">
@@ -25,11 +25,11 @@ export default function Footer() {
 
           {/* LAYANAN */}
           <div>
-            <h3 className="text-[13px] font-semibold text-gray-800 mb-3">Layanan</h3>
+            <h3 className="text-[13px] font-semibold text-white mb-3">Layanan</h3>
             <ul className="space-y-2">
               {["Tentang Kami", "Karir", "Blog", "Press", "Kebijakan Privasi"].map((item) => (
                 <li key={item}>
-                  <a href="#" className="text-[13px] text-gray-500 hover:text-emerald-600 transition">{item}</a>
+                  <a href="#" className="text-[13px] text-white hover:text-emerald-600 transition">{item}</a>
                 </li>
               ))}
             </ul>
@@ -37,11 +37,11 @@ export default function Footer() {
 
           {/* BANTUAN */}
           <div>
-            <h3 className="text-[13px] font-semibold text-gray-800 mb-3">Bantuan</h3>
+            <h3 className="text-[13px] font-semibold text-white mb-3">Bantuan</h3>
             <ul className="space-y-2">
               {["Pusat Bantuan", "Cara Belanja", "Cara Pembayaran", "Pengembalian Barang", "Lacak Pesanan"].map((item) => (
                 <li key={item}>
-                  <a href="#" className="text-[13px] text-gray-500 hover:text-emerald-600 transition">{item}</a>
+                  <a href="#" className="text-[13px] text-white hover:text-emerald-600 transition">{item}</a>
                 </li>
               ))}
             </ul>
@@ -49,7 +49,7 @@ export default function Footer() {
 
           {/* PEMBAYARAN */}
           <div>
-            <h3 className="text-[13px] font-semibold text-gray-800 mb-3">Pembayaran</h3>
+            <h3 className="text-[13px] font-semibold text-white mb-3">Pembayaran</h3>
             <div className="flex flex-wrap gap-2">
               {["BCA", "Mandiri", "BRI", "BNI", "GoPay", "OVO", "Dana", "QRIS"].map((item) => (
                 <span key={item} className="text-[11px] text-gray-600 bg-gray-100 rounded px-2 py-1 font-medium">
@@ -61,7 +61,7 @@ export default function Footer() {
 
           {/* PENGIRIMAN */}
           <div>
-            <h3 className="text-[13px] font-semibold text-gray-800 mb-3">Pengiriman</h3>
+            <h3 className="text-[13px] font-semibold text-white mb-3">Pengiriman</h3>
             <div className="flex flex-wrap gap-2">
               {["JNE", "J&T", "SiCepat", "Anteraja", "GoSend", "GrabExpress"].map((item) => (
                 <span key={item} className="text-[11px] text-gray-600 bg-gray-100 rounded px-2 py-1 font-medium">
@@ -75,11 +75,11 @@ export default function Footer() {
 
         {/* BOTTOM BAR */}
         <div className="border-t border-gray-100 mt-8 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3">
-          <p className="text-[12px] text-gray-400">© 2024 minimart. All rights reserved.</p>
+          <p className="text-[12px] text-white">© 2024 minimart. All rights reserved.</p>
           <div className="flex gap-4">
-            <a href="#" className="text-[12px] text-gray-400 hover:text-emerald-600 transition">Syarat & Ketentuan</a>
-            <a href="#" className="text-[12px] text-gray-400 hover:text-emerald-600 transition">Kebijakan Privasi</a>
-            <a href="#" className="text-[12px] text-gray-400 hover:text-emerald-600 transition">Sitemap</a>
+            <a href="#" className="text-[12px] text-white hover:text-emerald-600 transition">Syarat & Ketentuan</a>
+            <a href="#" className="text-[12px] text-white hover:text-emerald-600 transition">Kebijakan Privasi</a>
+            <a href="#" className="text-[12px] text-white hover:text-emerald-600 transition">Sitemap</a>
           </div>
         </div>
       </div>

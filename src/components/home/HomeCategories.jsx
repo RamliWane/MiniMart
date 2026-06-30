@@ -26,15 +26,13 @@ export default function HomeCategories() {
   return (
     <section className="py-5 mt-3 rounded-3xl bg-gray-50">
       <div className="max-w-7xl mx-auto px-4">
-        {/* HEADER */}
         <div className="flex justify-between items-center mb-6">
-          <h2 className="text-2xl font-medium">Kategori</h2>
+          <h2 className="text-2xl font-medium text-gray-400">Kategori</h2>
           <a href="/categories" className="text-blue-600 text-sm font-medium">
             Lihat Semua →
           </a>
         </div>
 
-        {/* CATEGORY LIST (horizontal scroll) */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-10">
           {categories.map((cat, index) => (
             <div
